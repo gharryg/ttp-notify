@@ -9,7 +9,10 @@ This project was inspired by: https://github.com/Drewster727/goes-notify
 For Global Entry: https://ttp.cbp.dhs.gov/schedulerapi/locations/?temporary=false&inviteOnly=false&operational=true&serviceName=Global%20Entry
 
 ## Notification Methods
-Currently the only notification method is a webhook trigger on IFTTT. In the request, `value1` is set to the enrollment center location and `value2` is set to the date/time of the available appointment.
+Currently the only notification method is a webhook trigger on IFTTT. In the JSON request body, `value1` is set to the enrollment center `shortName` (see data in the link above) and `value2` is set to the date/time of the available appointment:
+```json
+{"value1": "Edmonton Enrollment Center", "value2": "Monday, September 13, 2021 at 14:00"}
+```
 
 ## Docker
 I use Docker Compose to manage execution. While Docker is not required, the environmental variable are. Below is a sample Docker Compose file:
