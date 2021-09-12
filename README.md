@@ -1,7 +1,7 @@
 # ttp-notify
-Trusted Travel Programs (TTPs) such as Global Entry are great, but trying to find available appointments is almost impossible at some locations. This tool will watch for open appointments at desried locations and notify when one is available.
+Trusted Traveler Programs (TTPs) such as Global Entry are great, but trying to find available appointments is almost impossible at some locations. This tool will watch for open appointments at desried locations and notify when one is available.
 
-For information on TTPs, see: https://ttp.cbp.dhsgov/
+For information on TTPs, see: https://ttp.cbp.dhs.gov/
 
 This project was inspired by: https://github.com/Drewster727/goes-notify
 
